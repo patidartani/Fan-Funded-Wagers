@@ -1,0 +1,58 @@
+.slot_box {
+   background-color: black;
+   position: relative;
+   padding: 40px 0;
+ }
+ 
+ .slot_heading h2 {
+   color: #DBB66B;
+   font-size: 2rem;
+ }
+ 
+ .slot_heading h3 {
+   color: #ffffff;
+   font-size: 1.5rem;
+ }
+ 
+ .slot_heading p {
+   color: #7A7A7A;
+   font-weight: 700;
+   font-size: 1rem;
+ }
+ 
+ .sticky-box {
+   position: sticky;
+   top: 0;
+   z-index: 1;
+   background: black;
+   border-bottom: 1px solid #444;
+   height: auto;
+   padding: 40px 0;
+ }
+ 
+ /* Optional: make images smaller on mobile */
+ .slot-img {
+   max-width: 90%;
+   height: auto;
+   margin-bottom: 20px;
+ }
+ 
+ /* Responsive tweaks */
+ @media (max-width: 767px) {
+   .slot_heading h2 {
+     font-size: 1.5rem;
+   }
+ 
+   .slot_heading h3 {
+     font-size: 1.2rem;
+   }
+ 
+   .slot_heading p {
+     font-size: 0.9rem;
+   }
+ 
+   .sticky-box {
+     padding: 20px 0;
+   }
+ }
+ 

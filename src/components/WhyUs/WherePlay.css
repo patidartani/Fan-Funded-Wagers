@@ -1,0 +1,272 @@
+.WherePlay-main {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: #000;
+        position: relative;
+        overflow: hidden;
+        font-family: Arial, Helvetica, sans-serif;
+        padding-top: 4vmax;
+        color: #fff;
+        padding-bottom: 2vmax;
+}
+
+.background-image {
+        position: absolute;
+        left: 3%;
+        top: 12%;
+        transform: translateY(-50%);
+        z-index: 1;
+        width: 100%;
+        opacity: 1;
+}
+
+.bg-new {
+        position: absolute;
+        left: 83%;
+        width: 250px;
+        transform: rotate(20deg);
+}
+
+.bg-left-imgs {
+        position: absolute;
+        left: 0;
+        top: 10%;
+        width: 150px;
+}
+
+.where {
+        width: 85%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        position: relative;
+        z-index: 2;
+}
+
+.where .where-top {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-family: 'Satoshi', sans-serif;
+}
+
+.where .where-top .bg-bottom-right {
+        background: url("../../assets/images/text_img.png") no-repeat right;
+        background-size: contain;
+        padding: 30px 90px !important;
+        display: inline-block;
+}
+
+.where .where-btm {
+        width: 95%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: relative;
+        margin-top: 3vmax;
+        overflow: hidden;
+        border: 3px solid #DBB66B;
+        border-top-right-radius: 50px;
+        border-bottom-left-radius: 50px;
+}
+
+.where .where-btm img {
+        max-width: 100%;
+}
+
+.where .where-btm .where-text {
+        width: 75%;
+        display: flex;
+        align-items: flex-start;
+        justify-content: space-between;
+        flex-direction: column;
+        position: absolute;
+        gap: 2vmax;
+        font-family: 'Satoshi', sans-serif;
+}
+
+.where-btn .btn-where2 {
+        position: relative;
+        display: inline-block;
+        padding: 12px 40px 18px;
+
+        font-size: 11px;
+
+        font-weight: 500;
+        text-align: center;
+        background: url("../../assets/images/btn-mid.png") repeat-x;
+        background-size: contain;
+        transition: transform 0.2s ease-in-out, all 0.3s ease-in-out;
+        left: 30px;
+}
+
+.where-btn .btn-where2:hover {
+        transform: scale(1.05);
+}
+
+.where-btn .btn-where2 span {
+        position: relative;
+        top: -2px;
+        font-size: 1vmax;
+        letter-spacing: 0px !important;
+}
+
+.where-btn .btn-where2::before,
+.where-btn .btn-where2::after {
+        content: "";
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        width: 30px;
+        background-size: contain;
+}
+
+.where-btn .btn-where2::before {
+        background: url("../../assets/images/btn-right.png") no-repeat;
+        right: -28px;
+
+}
+
+.where-btn .btn-where2::after {
+        background: url("../../assets/images/btn-left.png") no-repeat;
+        left: -22px;
+}
+
+.where-btn a {
+        color: #DBB66B;
+        text-decoration: none !important;
+        letter-spacing: 0;
+}
+
+@media (max-width:768px) {
+        .WherePlay-main {
+                width: 100%;
+        }
+
+        .background-image {
+                display: none;
+        }
+
+        .where {
+                width: 95%;
+        }
+
+        .where .where-top {
+                width: 100%;
+        }
+
+        .where .where-btm {
+                width: 100%;
+                height: auto;
+        }
+
+        .where .where-btm img {
+                max-width: none;
+        }
+
+        .where .where-btm .where-text {
+                width: 90%;
+        }
+
+        .where .where-btm .where-text h2 {
+                font-size: 3.6vmax;
+        }
+
+        .where .where-btm .where-text p {
+                font-size: 2.2vmax;
+        }
+
+        .where-btn .btn-where2 {
+                padding: 12px 20px 18px;
+        }
+
+        .where-btn .btn-where2 span {
+                font-size: 2vmax;
+        }
+
+        .where-btn .btn-where2::before,
+        .where-btn .btn-where2::after {
+                content: "";
+                position: absolute;
+                top: 0;
+                bottom: 0;
+                width: 40px;
+
+                background-size: contain;
+        }
+
+        .where-btn .btn-where2::before {
+                bottom: 0.1vmax;
+                right: -39px;
+        }
+
+        .where-btn .btn-where2::after {
+                left: -21px;
+                bottom: 0.1vmax;
+        }
+       
+}
+
+/* @media (max-width:320px) {
+              
+        .where .where-btm .where-text h2{
+                font-size: 1.8vmax;
+        }
+} */
+
+@media (min-width: 2800px) {
+        .where .where-btm .where-text {
+                width: 55%;
+                display: flex;
+                align-items: flex-start;
+                justify-content: space-between;
+                flex-direction: column;
+                position: absolute;
+                gap: 2vmax;
+                font-family: 'Satoshi', sans-serif;
+        }
+
+        .where-btn .btn-where2 {
+                padding: 5px 18px;
+        }
+}
+
+@media (min-width: 2500px) {
+        .where .where-btm .where-text {
+                width: 55%;
+                display: flex;
+                align-items: flex-start;
+                justify-content: space-between;
+                flex-direction: column;
+                position: absolute;
+                gap: 2vmax;
+                font-family: 'Satoshi', sans-serif;
+        }
+
+        .where-btn .btn-where2 {
+                padding: 5px 18px;
+        }
+}
+
+@media (min-width: 1440px) and (max-width: 5120px) {
+        .where .where-top h1 {
+                font-size: 56px;
+        }
+
+        .where .where-btm .where-text h2 {
+                font-size: 44px;
+        }
+
+        .where-btn .btn-where2 span {
+                font-size: 16px;
+
+        }
+
+        .where-btn .btn-where2 {
+                padding: 16px 20px;
+        }
+}

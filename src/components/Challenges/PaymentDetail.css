@@ -1,0 +1,210 @@
+.PaymentDetail-main{
+          width: 100%;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          padding-top: 2vmax;
+          padding-bottom: 2vmax;
+          background-color: #000;
+          color: #fff;
+}
+.PaymentDetail-main .Payment-content{
+          width:90%;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          flex-direction: column;
+}
+.PaymentDetail-main .Payment-content .payment-top{
+          width: 100%;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+}
+.PaymentDetail-main .Payment-content .payment-btm{
+          width: 100%;
+          display: flex;
+          align-items: flex-start;
+          justify-content:flex-start;
+           flex-direction: row;
+           gap: 0.5vmax;
+}
+  
+.PaymentDetail-main .Payment-content .payment-btm .payment-left{
+          width: 60%;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+           flex-direction: column;        
+}
+.PaymentDetail-main .Payment-content .payment-btm .payment-left form{
+  
+  padding: 100px 200px 80px 64px;
+          border-radius: 2px 0 0 2px;
+          background: #161616;
+          width: 100% !important;
+    
+          /* border: 2px solid #8B2BD7; */
+          position: relative;
+          border-right: none;
+          background: url("../../assets/images/details_img.png") no-repeat;
+          background-size: 100% 100%;
+}
+.PaymentDetail-main .Payment-content .payment-btm .payment-left form .payment-ipt{
+           width: 100%;
+           margin-top: 2vmax;
+           display: flex;
+           align-items: center;
+           justify-content: center;
+          border: 2px solid #DBB66B;
+          border-radius: 5px;
+
+}
+.PaymentDetail-main .Payment-content .payment-btm .payment-left form h5{
+          font-size: 1.9vmax;
+}
+.PaymentDetail-main .Payment-content .payment-btm .payment-left form .payment-ipt input{
+          width: 100%;
+          outline: none;
+          border-radius: 5px;
+          border: none;
+          background: none;
+         padding: 0.6vmax 1vmax;
+         color: #fff;
+}
+.PaymentDetail-main .Payment-content .payment-btm .payment-right{
+          width: 40%;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+           flex-direction: column;    
+           gap: 1.5vmax;  
+}
+.PaymentDetail-main .Payment-content .payment-btm .payment-right .payment-one{
+  padding: 100px 30px 10px 50px;
+  background-image: url("../../assets//images//preview.png");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;  
+  width: 100%;
+  height: 400px;  
+}
+.PaymentDetail-main .Payment-content .payment-btm .payment-right .payment-one h5{
+          font-size: 1.6vmax;
+}
+.PaymentDetail-main .Payment-content .payment-btm .payment-right .payment-one .price{
+          display: flex;
+          align-items: center;
+          justify-content: space-between;
+          flex-direction: row;
+          margin-top: 1vmax;
+}
+
+
+
+@media (max-width:768px) {
+          .PaymentDetail-main{
+                    width: 100%;
+          }
+          .PaymentDetail-main .Payment-content{
+                    width:95%;
+          }
+          .PaymentDetail-main .Payment-content .payment-top{
+                    width: 100%;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+          }
+          .PaymentDetail-main .Payment-content .payment-btm{
+                    width: 100%;
+                    align-items: center;
+                    justify-content:center;
+                     flex-direction: column;
+          }
+            
+          .PaymentDetail-main .Payment-content .payment-btm .payment-left{
+                    width: 100%;      
+          }
+          .PaymentDetail-main .Payment-content .payment-btm .payment-left form{
+                    padding: 30px 10px 20px 10px;
+                    background: none;
+                    border: 2px solid #8B2BD7 !important;
+                    
+          }
+          .PaymentDetail-main .Payment-content .payment-btm .payment-left form h5{
+                    font-size: 3.4vmax;
+          }
+          .PaymentDetail-main .Payment-content .payment-btm .payment-left form .payment-ipt input{
+                   padding: 1.6vmax 1.4vmax;
+          }
+          .PaymentDetail-main .Payment-content .payment-btm .payment-right{
+                    width: 100%;
+                    margin-top: 2vmax;
+          }
+          .PaymentDetail-main .Payment-content .payment-btm .payment-right .payment-one{
+                    border: 2px solid #8B2BD7 !important;
+                    background-image: none;
+                    border-radius: 5px;
+                    padding: 1.5vmax;
+          }
+          .PaymentDetail-main .Payment-content .payment-btm .payment-right .payment-one h5{
+                    font-size: 3.4vmax;
+          }
+                 
+}
+@media (min-width:768px) and (max-width:1150px){
+          .PaymentDetail-main{
+                    width: 100%;
+          }
+          .PaymentDetail-main .Payment-content{
+                    width:95%;
+          }
+          .PaymentDetail-main .Payment-content .payment-top{
+                    width: 100%;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+          }
+          .PaymentDetail-main .Payment-content .payment-btm{
+                    width: 100%;
+                    align-items: center;
+                    justify-content:center;
+                     flex-direction: column;
+          }
+            
+          .PaymentDetail-main .Payment-content .payment-btm .payment-left{
+                    width: 100%;      
+          }
+          .PaymentDetail-main .Payment-content .payment-btm .payment-left form{
+                    padding: 30px 10px 20px 10px;
+                    background: none;
+                    border: 2px solid #8B2BD7 !important;
+                    
+          }
+          .PaymentDetail-main .Payment-content .payment-btm .payment-left form h5{
+                    font-size: 3.4vmax;
+          }
+          .PaymentDetail-main .Payment-content .payment-btm .payment-left form .payment-ipt input{
+                   padding: 1.6vmax 1.4vmax;
+          }
+          .PaymentDetail-main .Payment-content .payment-btm .payment-right{
+                    width: 100%;
+                    margin-top: 2vmax;
+          }
+          .PaymentDetail-main .Payment-content .payment-btm .payment-right .payment-one{
+                    border: 2px solid #8B2BD7 !important;
+                    background-image: none;
+                    border-radius: 5px;
+                    padding: 1.5vmax;
+          }
+          .PaymentDetail-main .Payment-content .payment-btm .payment-right .payment-one h5{
+                    font-size: 3.4vmax;
+          }
+                 
+}
+
+.error {
+    color: red;
+    font-size: 14px;
+    
+  }
+  

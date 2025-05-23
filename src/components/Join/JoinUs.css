@@ -1,0 +1,382 @@
+/* .JoinUs-main {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #000;
+    color: #fff;
+    padding-top: 3vmax;
+    position: relative;
+    padding-bottom: 7vmax;
+}
+
+.bg-img {
+    position: absolute;
+    left: 10%;
+    top: 5%;
+ transform: rotate(30deg);
+    z-index: 1;
+    opacity: 1;
+}
+
+.bg-rocket {
+    position: absolute;
+    left: 2%;
+    top: 10%;
+    width: 270px;
+}
+
+.JoinUs-main .Join-us {
+    width: 85%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+
+.JoinUs-main .Join-us .Join-top {
+    width: 95%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    margin-top: 3vmax;
+    overflow: hidden;
+}
+
+.JoinUs-main .Join-us .Join-top img {
+    width: 100%;
+    height: 400px;
+}
+
+.JoinUs-main .Join-us .Join-top .join-text {
+    width: 75%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    flex-direction: column;
+    position: absolute;
+    gap: 2vmax;
+    font-family: 'Satoshi', sans-serif;
+}
+
+
+.join-btn .btn-join {
+    position: relative;
+    display: inline-block;
+    padding: 12px 40px 18px;
+   
+    font-size: 11px;
+   
+    font-weight: 700;
+    text-align: center;
+    background: url("../../assets/images/btn-mid.png") repeat-x;
+    background-size: contain;
+    transition: transform 0.2s ease-in-out, all 0.3s ease-in-out;
+    left: 30px;
+}
+
+
+.join-btn .btn-join:hover {
+    transform: scale(1.05);
+}
+
+.join-btn .btn-join span {
+    position: relative;
+    top: -2px;
+  
+    font-size: 1vmax;
+    letter-spacing: 0px !important;
+}
+
+.join-btn .btn-join::before,
+.join-btn .btn-join::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    width: 30px;
+   
+    background-size: contain;
+}
+
+.join-btn .btn-join::before {
+    background: url("../../assets/images/btn-right.png") no-repeat;
+    right: -28px;
+   
+}
+
+.join-btn .btn-join::after {
+    background: url("../../assets/images/btn-left.png") no-repeat;
+    left: -22px;
+   
+}
+
+.join-btn a {
+ 
+  color: #DBB66B !important;
+    text-decoration: none !important;
+    letter-spacing: 0;
+}
+
+
+.JoinUs-main .Join-us .join-btm {
+    width: 95%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    margin-top: 3vmax;
+    flex-direction: row;
+    padding: 1vmax 5vmax;
+  
+    border: 20px solid transparent;
+  
+    border-image: url("../../assets/images/count1.png") ;
+    border-image-slice: 100;
+   
+}
+
+.JoinUs-main .Join-us .join-btm .j-left {
+    width: 50%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: column;
+}
+
+.JoinUs-main .Join-us .join-btm .j-left h6 {
+    font-size: 1.3vmax;
+    text-transform: uppercase;
+    font-family: 'Satoshi', sans-serif;
+}
+
+.JoinUs-main .Join-us .join-btm .j-left h4 {
+    font-size: 2.4vmax;
+    font-family: 'Satoshi', sans-serif;
+}
+
+.JoinUs-main .Join-us .join-btm .j-right {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    color: #000;
+}
+
+.JoinUs-main .Join-us .join-btm .j-right form {
+    position: relative;
+    display: inline-block;
+}
+
+.JoinUs-main .Join-us .join-btm .j-right form img {
+    width: 100%;
+
+    display: block;
+}
+
+.JoinUs-main .Join-us .join-btm .j-right form .form-data {
+    position: absolute;
+    top: 50%;
+  
+    left: 50%;
+    transform: translate(-50%, -50%);
+    
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.JoinUs-main .Join-us .join-btm .j-right form .form-data input {
+    flex: 1;
+    border: none;
+    outline: none;
+    font-size: 14px;
+    background: transparent;
+   
+}
+
+.JoinUs-main .Join-us .join-btm .j-right form .form-data button {
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    background: url("../../assets/images/amount_btn1.png") no-repeat center;
+    background-size: 100% 100%;
+    
+    width: 130px;
+  
+    height: 60px;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+   
+}
+
+
+@media (max-width:768px) {
+    .JoinUs-main {
+        display: none;
+    }
+}
+
+@media (min-width:768px) and (max-width:1050px) {
+    .JoinUs-main {
+        display: none;
+    }
+}
+
+
+@media (min-width: 2800px) {
+    .JoinUs-main .Join-us .Join-top .join-text {
+        width: 55%;
+    }
+
+    .join-btn .btn-join {
+        padding: 8px 18px;
+    }
+  }
+  
+  @media (min-width: 2500px) {
+    .JoinUs-main .Join-us .Join-top .join-text {
+        width: 55%;
+    }
+
+    .join-btn .btn-join {
+        padding: 8px 18px;
+    }
+  }
+
+  @media (min-width: 1440px) and (max-width: 5120px) {
+    .JoinUs-main .Join-us .Join-top h2{
+        font-size: 52px;
+    }
+    .JoinUs-main .Join-us .join-btm .j-left h6 {
+       font-size: 16px;
+       font-weight: 500;
+       letter-spacing: 0.8px;
+    }
+    .JoinUs-main .Join-us .join-btm .j-left h4  {
+        font-size: 53px;
+       
+     }
+     .join-btn .btn-join span {
+        font-size: 16px;
+       
+     }
+    } */
+
+    .join-community {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background-color: #07080F;
+        padding: 50px 250px; 
+        color: white;
+        font-family: 'Inter', sans-serif;
+      }
+      
+      .join-left {
+        max-width: 50%;
+      }
+      
+      .join-left h1 {
+        font-size: 4rem;
+        line-height: 1.2;
+        margin: 0;
+      }
+      
+      .stats {
+        display: flex;
+        gap: 40px;
+        margin: 30px 0;
+      }
+      
+      .stat {
+        display: flex;
+        flex-direction: column;
+      }
+      
+      .gradient-text {
+        font-size: 25px;
+        background: linear-gradient(90deg, #DBB66B 0%, #F90 100%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+      }
+      
+      .stat span {
+        font-size: 14px;
+        color: #aaa;
+        letter-spacing: 1px;
+      }
+      
+      .join-button {
+        padding: 14px 28px;
+        font-weight: bold;
+        border: none;
+        border-radius: 8px;
+        background: linear-gradient(90deg, #DBB66B 0%, #F90 100%);
+        color: #000;
+        cursor: pointer;
+        transition: 0.3s ease;
+      }
+      
+      .join-button:hover {
+        opacity: 0.9;
+      }
+
+      @media (max-width: 1024px) {
+  .join-community {
+    flex-direction: column;
+    padding: 40px 60px;
+    text-align: center;
+  }
+
+  .join-left {
+    max-width: 100%;
+  }
+
+  .join-left h1 {
+    font-size: 2rem;
+  }
+
+  .stats {
+    justify-content: center;
+  }
+}
+
+@media (max-width: 600px) {
+  .join-community {
+    padding: 30px 20px;
+  }
+
+  .join-left h1 {
+    font-size: 2rem;
+  }
+
+  .gradient-text {
+    font-size: 16px;
+  }
+
+  .stat span {
+    font-size: 12px;
+  }
+
+  .join-button {
+    width: 100%;
+    padding: 12px;
+  }
+  .join-right img{
+    width: 100%;
+    padding-top: 20px;
+  }
+}
+      
+    
+      
+   
+      

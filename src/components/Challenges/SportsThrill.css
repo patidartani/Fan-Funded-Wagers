@@ -1,0 +1,247 @@
+.SportsThrill-main {
+       width: 100%;
+       display: flex;
+       align-items: center;
+       justify-content: center;
+       background-color: #000;
+       color: #fff;
+       padding-bottom: 5vmax;
+}
+
+
+
+.SportsThrill-main .SportsThrill {
+       width: 85%;
+       display: flex;
+       align-items: center;
+       justify-content: center;
+       flex-direction: column;
+}
+
+.SportsThrill-main .SportsThrill .SportsThrill-top,
+.SportsThrill-main .SportsThrill .SportsThrill-mid,
+.SportsThrill-main .SportsThrill .SportsThrill-btm {
+       width: 100%;
+       display: flex;
+       align-items: center;
+       justify-content: center;
+       flex-direction: row;
+       gap: 2vmax;
+}
+
+.SportsThrill-main .SportsThrill .SportsThrill-top h1 {
+       font-size: 2.8vmax;
+       font-family: 'Satoshi', sans-serif;
+       font-weight: 500;
+}
+
+.SportsThrill-main .SportsThrill .SportsThrill-top .bg-bottom-right {
+       background: url("../../assets/images/text_img.png") no-repeat right;
+       background-size: contain;
+       padding: 30px 50px !important;
+       display: inline-block;
+}
+
+.ST1 {
+       width: 20%;
+       display: flex;
+       align-items: center;
+       justify-content: center;
+       flex-direction: column;
+       font-family: 'Satoshi', sans-serif;
+       margin-top: 2vmax;
+       position: relative;
+
+}
+
+.ST1 .countt h5 {
+       font-size: 1.7vmax;
+       font-weight: 700;
+       font-family: 'Satoshi', sans-serif;
+}
+
+.ST1 .countt span {
+       font-weight: lighter;
+       letter-spacing: 0.3px;
+}
+
+.ST1 .countt {
+       display: flex;
+       align-items: center;
+       justify-content: center;
+       flex-direction: column;
+       position: absolute;
+       margin-bottom: 0.5vmax;
+}
+
+.ST-left {
+       width: 20%;
+       text-align: center;
+
+}
+
+.ST-right {
+       width: 60%;
+       display: flex;
+       align-items: center;
+       justify-content: space-between;
+}
+
+.real-time-data {
+       /* background: url("../../assets/images/line-angle.png") no-repeat right; */
+       font-size: 22px;
+       line-height: 32px;
+       color: #949695;
+       padding: 20px 80px 20px 20px;
+       letter-spacing: 1px;
+       width: 245px;
+}
+.ST1 img{
+       width: 100%;
+}
+@media (max-width:761px) {
+       .SportsThrill-main {
+              width: 100%;
+       }
+
+       .SportsThrill-main .SportsThrill {
+              width: 90%;
+       }
+
+       .SportsThrill-main .SportsThrill .SportsThrill-top,
+       .SportsThrill-main .SportsThrill .SportsThrill-mid,
+       .SportsThrill-main .SportsThrill .SportsThrill-btm {
+              gap: 0vmax;
+              flex-direction: column;
+       }
+
+       .SportsThrill-main .SportsThrill .SportsThrill-top h1 {
+              font-size: 3.5vmax;
+              margin-top: 5vmax;
+       }
+
+       .SportsThrill-main .SportsThrill .SportsThrill-top .bg-bottom-right {
+              position: relative;
+              background: url("../../assets/images/dashed.png") no-repeat bottom 0 right 0;
+              padding-bottom: 30px;
+              display: inline-block;
+       }
+
+       .ST1 {
+              width: 95%;
+
+       }
+
+       .ST1 .countt h5 {
+              font-size: 4vmax;
+              font-weight: 600;
+       }
+
+       .ST-left {
+              width: 100%;
+              text-align: center;
+
+       }
+
+       .ST-left h5 {
+              width: 100%;
+       }
+
+       .real-time-data {
+              background: url("../../assets/images/span-line.png") no-repeat right;
+              padding: 20px 50px;
+              display: inline-block;
+              background-size: contain;
+       }
+
+       .ST-right {
+              width: 100%;
+              margin-top: 2vmax;
+       }
+
+       .ST-right img {
+              width: 100%;
+       }
+
+
+}
+
+@media (min-width:761px)and (max-width:1050px) {
+       .SportsThrill-main {
+              width: 100%;
+       }
+
+       .SportsThrill-main .SportsThrill {
+              width: 95%;
+              margin-top: 5vmax;
+       }
+
+       .SportsThrill-main .SportsThrill .SportsThrill-top,
+       .SportsThrill-main .SportsThrill .SportsThrill-mid,
+       .SportsThrill-main .SportsThrill .SportsThrill-btm {
+              width: 100%;
+              flex-direction: row;
+              gap: 2vmax;
+       }
+
+       .SportsThrill-main .SportsThrill .SportsThrill-top h1 {
+              font-size: 3.5vmax;
+       }
+
+       .ST1 {
+              width: 26%;
+
+       }
+
+       .ST1 .countt h5 {
+              font-size: 2.5vmax;
+              font-weight: 600;
+       }
+
+       .ST-left {
+              width: 20%;
+              text-align: center;
+
+       }
+
+       .ST-right {
+              width: 100%;
+       }
+
+       .ST-right img {
+              width: 85%;
+       }
+
+       .real-time-data {
+              background: url("../../assets/images/line-angle.png") no-repeat right;
+              font-size: 22px;
+              line-height: 30px;
+              color: #949695;
+              letter-spacing: 1px;
+              width: 200px;
+       }
+
+}
+
+
+@media(max-width:786px) {
+.SportsThrill-main .SportsThrill .SportsThrill-top,
+.SportsThrill-main .SportsThrill .SportsThrill-mid,
+.SportsThrill-main .SportsThrill .SportsThrill-btm {
+       gap: 5vmax;
+}
+}
+
+@media(max-width:1280px) {
+       .SportsThrill-main .SportsThrill .SportsThrill-top,
+       .SportsThrill-main .SportsThrill .SportsThrill-mid,
+       .SportsThrill-main .SportsThrill .SportsThrill-btm {
+              gap: 5vmax;
+       }
+       }
+
+       @media (min-width: 1440px) and (max-width: 5120px) {
+              .SportsThrill-main .SportsThrill .SportsThrill-top h1{
+                 font-size: 56px;
+              }
+           }

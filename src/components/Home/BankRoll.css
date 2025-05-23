@@ -1,0 +1,242 @@
+.BankRoll-main {
+   position: relative;
+   width: 100%;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   background-color: #000;
+   overflow: hidden;
+}
+
+.floating {
+   position: absolute;
+   top: 5%;
+   right: 5%;
+   width: 200px;
+   height: 200px;
+   z-index: 0;
+   mix-blend-mode: screen;
+}
+
+.BankRoll {
+   width: 85%;
+   padding-top: 3vmax;
+   display: flex;
+   align-items: flex-start;
+   justify-content: flex-start;
+   color: #fff;
+   text-align: center;
+   flex-direction: row;
+}
+
+.BankRoll-left {
+   width: 50%;
+   display: flex;
+   align-items: flex-start;
+   justify-content: flex-start;
+   flex-direction: column;
+}
+
+.BankRoll-left h1 {
+   width: 100%;
+   font-size: 2.9vmax;
+   font-family: 'Satoshi', sans-serif;
+   font-weight: 700;
+}
+
+.title-padding {
+   width: 100%;
+   padding: 2vmax 3.3vmax;
+   display: inline-block;
+}
+
+.rc-right-bgs {
+   background: url("../../assets/images/Home2TextImg.png") no-repeat right bottom;
+   background-size: contain;
+   width: 100%;
+   padding: 2vmax 3.3vmax;
+}
+
+.BankRoll-right img {
+   width: 100%;
+}
+
+.requirements {
+   list-style-type: none;
+   padding: 90px;
+   margin-bottom: 20px;
+}
+
+.requirements li {
+   font-size: 24px;
+   margin: 20px 0;
+   display: flex;
+   align-items: center;
+}
+
+.icon {
+   width: 36px;
+   height: 36px;
+   background-color: #D000CC;
+   border-radius: 50%;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   margin-right: 20px;
+}
+
+.icon::before {
+   content: '';
+   display: inline-block;
+   width: 20px;
+   height: 20px;
+   background: url("https://fanfunded.io/wp-content/themes/fanfunded-wp-theme/img/check.svg") no-repeat center center;
+   background-size: contain;
+}
+
+@media (max-width:768px) {
+   .BankRoll-main {
+      width: 100%;
+      padding-bottom: 4vmax;
+   }
+
+   .floating {
+      display: none;
+   }
+
+   .BankRoll {
+      width: 95%;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+   }
+
+   .BankRoll-left {
+      width: 100%;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+   }
+
+   .BankRoll-left h1 {
+      font-size: 3.9vmax;
+      font-weight: 500;
+   }
+
+   .title-padding {
+      width: 100%;
+      padding: 1vmax 4vmax;
+      font-weight: 500;
+   }
+
+   .rc-right-bgs {
+      background: url("../../assets/images/Home2TextImg.png") no-repeat right bottom;
+      background-size: cover;
+      padding: 40px 25px;
+      font-size: 4vmax;
+   }
+
+   .BankRoll-right img {
+      width: 100%;
+   }
+
+   .requirements {
+      list-style-type: none;
+      padding: 15px 2vmax;
+      margin-top: 3vmax;
+      margin-bottom: 5px;
+      width: 100%;
+   }
+
+   .requirements li {
+      font-size: 18px;
+      display: flex;
+      align-items: center;
+   }
+}
+
+@media (min-width:761px) and (max-width:1050px) {
+   .BankRoll-main {
+      width: 100%;
+      padding-bottom: 4vmax;
+   }
+
+   .floating {
+      display: none;
+   }
+
+   .BankRoll {
+      width: 95%;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+   }
+
+   .BankRoll-left {
+      width: 100%;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+   }
+
+   .BankRoll-left h1 {
+      font-size: 3.5vmax;
+      font-weight: 500;
+   }
+
+   .BankRoll-left span{
+      font-size: 3.3vmax;
+      font-weight: 500;
+   }
+
+   .title-padding {
+      width: 100%;
+      padding: 1vmax 4vmax;
+   }
+
+   .rc-right-bgs {
+      background: url("../../assets/images/Home2TextImg.png") no-repeat right bottom;
+      background-size: cover;
+      padding: 40px 25px;
+      font-size: 4vmax;
+   }
+
+   .BankRoll-right img {
+      width: 100%;
+   }
+
+   .requirements {
+      list-style-type: none;
+      padding: 15px 2vmax;
+      margin-top: 3vmax;
+      margin-bottom: 5px;
+      width: 100%;
+   }
+
+   .requirements li {
+      font-size: 40px;
+      display: flex;
+      align-items: center;
+   }
+}
+
+@media (max-width:768px) {
+   .rc-right-bgs {
+      padding: 40px 16px;
+   }
+}
+
+@media (max-width: 1280px) {
+   .requirements li {
+font-size: 17px;
+   }
+   .rc-right-bgs{
+      padding: 2vmax 0vmax;
+   }
+}
+
+@media (min-width: 1440px) and (max-width: 5120px) {
+   .BankRoll-left h1 {
+      font-size: 56px;
+   }
+}

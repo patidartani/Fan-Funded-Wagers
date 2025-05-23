@@ -1,0 +1,128 @@
+.Footer-main {
+   width: 100%;
+   /* height: 480px; */
+   background-color: #000;
+   color: #fff;
+   /* padding: 4vmax 0; */
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+
+.footer-content {
+   width: 100%;
+   background-image: url("../../assets/images/bg-footer.png");
+   background-repeat: no-repeat;
+   background-position: center;
+   background-size: cover;
+   padding: 3vmax 6vmax;
+}
+
+.footer-top {
+   width: 100%;
+   display: flex;
+   flex-wrap: wrap;
+   /* gap: 2vmax; */
+}
+
+.F-one {
+   display: flex;
+   flex-direction: column;
+   align-items: flex-start;
+   justify-content: flex-start;
+}
+
+.F-one h5 {
+   font-weight: 600;
+   font-size: 1.3vmax;
+   font-family: 'Satoshi', sans-serif;
+}
+
+.F-one h5 img {
+   width: 70%;
+}
+
+.F-one span {
+   font-family: 'Satoshi', sans-serif;
+}
+
+.F-one .links {
+   width: 100%;
+   margin-top: 1vmax;
+   display: flex;
+   flex-direction: column;
+   font-family: 'Satoshi', sans-serif;
+}
+
+.F-one .links a {
+   text-decoration: none;
+   color: #fff;
+   font-family: 'Satoshi', sans-serif;
+   margin-bottom: 5px;
+}
+
+.F-one .links a:hover {
+   color: #DBB66B;
+}
+
+.footer-btm {
+   width: 100%;
+   text-align: center;
+   margin-top: 3vmax;
+}
+
+.footer-btm p {
+   font-family: 'Satoshi', sans-serif;
+   font-size: 1vmax;
+}
+
+/* ✅ Responsive Fix */
+@media (min-width: 1440px) and (max-width: 5120px) {
+   .F-one h5 {
+      font-size: 20px;
+   }
+
+   .footer-btm p {
+      padding-top: 4vmax;
+      letter-spacing: 0.5px;
+      font-size: 15px;
+   }
+}
+
+@media (max-width: 1024px) {
+   .footer-btm p {
+      text-align: justify;
+      font-size: 1.7vmax;
+   }
+}
+
+@media (max-width: 768px) {
+   .footer-top {
+      flex-direction: column;
+      gap: 4vmax;
+   }
+
+   .F-one {
+      width: 100%;
+   }
+
+   .F-one h5 {
+      font-size: 3.7vmax;
+   }
+
+   .F-one h5 img {
+      width: 60%;
+   }
+
+   .footer-btm p {
+      text-align: justify;
+      font-size: 2vmax;
+   }
+}
+
+@media (max-width: 320px) {
+   .footer-btm p {
+      text-align: justify;
+      font-size: 2.5vmax;
+   }
+}

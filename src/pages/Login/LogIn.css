@@ -1,0 +1,251 @@
+.LogIn-main {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-image: url("../../assets/images/banner2.jpeg");
+
+        min-height: 100vh;
+        /* 👈 full screen height le lega */
+        padding-top: 2vmax;
+        padding-bottom: 5vmax;
+        color: #fff;
+        font-family: Arial, Helvetica, sans-serif;
+}
+
+.error-msg {
+        width: 100%;
+        display: flex;
+        align-items: flex-start;
+        justify-content: flex-start;
+        padding-left: 1vmax;
+}
+
+.LogIn-main .Login-content {
+        width: 85%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+}
+
+.LogIn-main .Login-content form {
+        width: 35%;
+        padding: 2vmax 2vmax;
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+        flex-direction: column;
+        border: 1px solid #DBB66B;
+        border-radius: 5px;
+        gap: 0.2vmax;
+}
+
+.LogIn-main .Login-content form h5 {
+        font-size: 2vmax;
+        color: #DBB66B;
+        font-weight: 700;
+}
+
+.LogIn-main .Login-content form small {
+        font-size: 0.9vmax;
+        color: #dbdbdb;
+}
+
+.LogIn-main .Login-content form .f-ipt {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 0.4vmax;
+
+        border: 1px solid #DBB66B;
+        border-radius: 5px;
+}
+
+.LogIn-main .Login-content form .f-ipt input {
+        outline: none;
+        border: none;
+        color: #fff;
+        background: none;
+        padding: 0.8vmax 1vmax;
+        width: 100%;
+}
+
+.LogIn-main .Login-content form .forget {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+        margin-top: 1vmax;
+}
+
+.LogIn-main .Login-content form .forget a {
+        text-decoration: none;
+        color: #fff;
+        font-size: 1vmax;
+}
+
+.LogIn-main .Login-content form .login-btn {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 1vmax;
+}
+
+.LogIn-main .Login-content form .login-btn button {
+        width: 100%;
+        border: none;
+        outline: none;
+        background: none;
+        font-weight: lighter;
+        letter-spacing: 0.2px;
+        font-size: 1vmax;
+        padding: 0.8vmax 1vmax;
+        color: #fff;
+
+        transition: 0.5s;
+        border-radius: 5px;
+        background: linear-gradient(90deg, #DBB66B 0%, #F90 100%);
+}
+
+.LogIn-main .Login-content form .new-one {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 1vmax;
+}
+
+.LogIn-main .Login-content form .new-one a {
+        text-decoration: none;
+        color: #DBB66B;
+}
+
+.password-container {
+        position: relative;
+        display: flex;
+        align-items: center;
+        width: 100%;
+}
+
+.eye-icon {
+        position: absolute;
+        right: 20px;
+        cursor: pointer;
+        color: #DBB66B;
+        font-size: 1.2rem;
+}
+
+
+
+@media (max-width:768px) {
+        .LogIn-main {
+                background-position: top center;
+        }
+
+        .LogIn-main .Login-content {
+                width: 95%;
+        }
+
+        .LogIn-main .Login-content form {
+                width: 100%;
+                padding: 3vmax 1.5vmax;
+        }
+
+        .LogIn-main .Login-content form h5 {
+                font-size: 4vmax;
+        }
+
+        .LogIn-main .Login-content form small {
+                font-size: 1.5vmax;
+        }
+
+        .LogIn-main .Login-content form .f-ipt {
+                width: 100%;
+                padding: 1.2vmax 1vmax;
+                margin-bottom: 0.5vmax;
+        }
+
+        .LogIn-main .Login-content form .forget {
+                width: 90%;
+        }
+
+        .LogIn-main .Login-content form .forget a {
+                font-size: 1.8vmax;
+        }
+
+        .LogIn-main .Login-content form .login-btn {
+                margin-top: 2vmax;
+        }
+
+        .LogIn-main .Login-content form .login-btn button {
+                padding: 1.9vmax 1vmax;
+                font-size: 2vmax;
+        }
+
+        .LogIn-main .Login-content form .new-one {
+                margin-top: 3vmax;
+        }
+
+        .LogIn-main .Login-content form .new-one a {
+                text-decoration: none;
+        }
+
+}
+
+@media (min-width:768px) and (max-width:1050px) {
+
+        .LogIn-main {
+                background-position: top center;
+
+                height: 100vh;
+        }
+
+        .LogIn-main .Login-content form {
+                width: 100%;
+        }
+
+        .LogIn-main .Login-content form h5 {
+                font-size: 4vmax;
+        }
+
+        .LogIn-main .Login-content form small {
+                font-size: 2vmax;
+        }
+
+        .LogIn-main .Login-content form .f-ipt {
+                width: 100%;
+                padding: 2vmax 1vmax;
+                margin-bottom: 0.5vmax;
+        }
+
+        .LogIn-main .Login-content form .f-ipt input::placeholder {
+                font-size: 2vmax;
+        }
+
+        .LogIn-main .Login-content form .forget a {
+                font-size: 2vmax;
+        }
+
+        .LogIn-main .Login-content form .login-btn button {
+                padding: 1.8vmax 1vmax;
+                font-size: 2.5vmax;
+        }
+
+        .LogIn-main .Login-content form .new-one {
+                margin-top: 3vmax;
+        }
+
+        .LogIn-main .Login-content form .new-one span {
+                font-size: 3vmax;
+        }
+
+        .eye-icon {
+                right: 30px;
+                font-size: 2rem;
+        }
+}

@@ -1,0 +1,335 @@
+.Faq-main {
+          width: 100%;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          background-color: #000;
+          color: white;
+          padding-bottom: 3vmax;
+}
+
+.Faq-main .Faq-page {
+          width: 100%;
+          padding: 4vmax 6vmax;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          flex-direction: column;
+          position: relative;
+          background: linear-gradient(to bottom, #DBB66B 10%, #F90   20%, rgba(0, 0, 0, 0.9) 45%, rgb(0, 0, 0) 100%);
+          /* background: linear-gradient(to bottom, #f3d008be 10%, rgba(255, 194, 28, 0.678) 20%, rgba(0, 0, 0, 0.9) 45%, rgb(0, 0, 0) 100%); */
+}
+
+
+.Faq-main .Faq-page .faq-Top {
+          width: 80%;
+          display: flex;
+          align-items: flex-start;
+          justify-content: flex-start;
+          flex-direction: column;
+}
+
+.Faq-main .Faq-page .faq-Top h5 {
+          font-size: 2vmax;
+          font-weight: 700;
+}
+
+.Faq-main .Faq-page .faq-Top .search-faq {
+          width: 100%;
+          margin-top: 1vmax;
+          background-color: #fff;
+          padding: 1vmax 1.6vmax;
+          border-radius: 10px;
+          display: flex;
+          align-items: center;
+}
+
+.Faq-main .Faq-page .faq-Top .search-faq input {
+          width: 100%;
+          outline: none;
+          border: none;
+          font-size: 1rem;
+}
+
+.Faq-main .Faq-page .faq-Top .search-faq svg {
+          color: #888;
+          font-size: 1.2rem;
+          margin-right: 10px;
+}
+
+.Faq-main .Faq-page .faq-btm {
+          width: 80%;
+          display: flex;
+          align-items: flex-start;
+          justify-content: flex-start;
+          flex-direction: column;
+          margin-top: 3vmax;
+          gap: 1vmax;
+}
+
+.Faq-main .Faq-page .faq-btm .f-btm-1 {
+          width: 100%;
+          display: flex;
+          align-items: flex-start;
+          justify-content: flex-start;
+          flex-direction: row;
+          gap: 2vmax;
+          border: 1px solid #676767;
+          padding: 2.5vmax 2vmax;
+          border-radius: 10px;
+          cursor: pointer;
+          transition: 1s ease;
+}
+
+.Faq-main .Faq-page .faq-btm .f-btm-1:hover {
+          border: 1px solid #DBB66B;
+}
+
+.Faq-main .Faq-page .faq-btm .f-btm-1:hover .f-btm-right h6 {
+          /* color: #D000CC; */
+          color: #DBB66B;
+}
+
+.Faq-main .Faq-page .faq-btm .f-btm-1 .f-btm-left {
+          width: 15%;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+}
+
+.Faq-main .Faq-page .faq-btm .f-btm-1 .f-btm-left img {
+          width: 100%;
+}
+
+.Faq-main .Faq-page .faq-btm .f-btm-1 .f-btm-right span {
+          font-weight: 400;
+          color: #cacaca;
+}
+
+.back-btn {
+          background: none;
+          border: none;
+          color: white;
+          font-size: 1.2rem;
+          cursor: pointer;
+          margin-bottom: 1vmax;
+}
+.back-btn:hover {
+    color: #DBB66B;
+}
+.faq-content {
+          margin-top: 3vmax;
+          width: 80%;
+}
+.faq-articles {
+          margin-top: 3vmax;
+          border: 1px solid #888;
+          border-radius: 10px;
+          padding-top: 1vmax;
+          padding-bottom: 1vmax;
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          justify-content: center;
+          gap: 0.5vmax;
+}
+
+.faq-articles .faq-item {
+          list-style: none;
+          width: 98%;
+          cursor: pointer;
+          display: flex;
+          align-items: center;
+          justify-content: space-between;
+          flex-direction: column;
+}
+
+.faq-articles .faq-item span {
+          list-style: none;
+          width: 100%;
+          cursor: pointer;
+          padding: 0.5vmax 0vmax;
+          display: flex;
+          padding-left: 1vmax;
+          align-items: center;
+          justify-content: space-between;
+          flex-direction: row;
+          border-radius: 10px;
+}
+
+.faq-articles .faq-item span:hover {
+          background-color: #222222d6;
+}
+
+.faq-articles .faq-item span:hover h6 {
+          color: #DBB66B;
+
+}
+.faq-articles .faq-item span h6 {
+          font-weight: 400;
+          font-size: 1.2vmax;
+}
+
+.faq-article-details{
+    margin-top: 3vmax;
+    width: 80%;
+}
+.faq-article-details h6{
+  font-size: 2vmax;
+  font-weight: 700;
+}
+.faq-article-details .detail-f{
+    margin-top: 3vmax;
+}
+.faq-article-details .detail-f p{
+   font-size: 1.2vmax;
+}
+
+@media (max-width: 768px) {
+          .Faq-main .Faq-page {
+              padding: 0vmax 0vmax;
+          }
+      
+          .Faq-main .Faq-page .faq-Top {
+              width: 100%;
+          }
+      
+          .Faq-main .Faq-page .faq-Top h5 {
+              font-size: 3vmax;
+          }
+      
+          .Faq-main .Faq-page .faq-btm {
+              width: 100%;
+          }
+      
+          .Faq-main .Faq-page .faq-btm .f-btm-1 {
+              flex-direction: column;
+              gap: 1vmax;
+              padding: 2vmax;
+          }
+      
+          .Faq-main .Faq-page .faq-btm .f-btm-1 .f-btm-left {
+              width: 100%;
+              justify-content: flex-start;
+          }
+      
+          .Faq-main .Faq-page .faq-btm .f-btm-1 .f-btm-left img {
+              width: 15%;
+          }
+          .faq-content {
+                   width: 100%;
+                }
+          .faq-articles .faq-item span {
+              padding: 1.2vmax;
+          }
+      
+          .faq-articles .faq-item span h6 {
+              font-size: 1.7vmax;
+          }
+      
+.faq-article-details{
+    margin-top: 3vmax;
+    width: 100%;
+}
+.faq-article-details h6{
+  font-size: 3.5vmax;
+}
+
+.faq-article-details .detail-f p{
+   font-size: 2vmax;
+}
+         
+}
+@media  (max-width: 480px) {
+    .Faq-main .Faq-page {
+        padding: 5vmax 3vmax;
+    }
+
+    .Faq-main .Faq-page .faq-Top h5 {
+        font-size: 3.5vmax;
+    }
+
+    .Faq-main .Faq-page .faq-Top .search-faq {
+        padding: 1.5vmax;
+    }
+
+    .Faq-main .Faq-page .faq-Top .search-faq input {
+        font-size: 1.5rem;
+    }
+
+    .Faq-main .Faq-page .faq-btm .f-btm-1 {
+        padding: 3vmax;
+    }
+
+    .Faq-main .Faq-page .faq-btm .f-btm-1 .f-btm-left img {
+        width: 20%;
+    }
+
+    .faq-articles .faq-item span h6 {
+        font-size: 2vmax;
+    }
+    .faq-article-details{
+        margin-top: 3vmax;
+        width: 100%;
+    }
+    .faq-article-details h6{
+      font-size: 3.5vmax;
+    }
+    
+    .faq-article-details .detail-f p{
+       font-size: 2vmax;
+    }
+        
+}
+@media (min-width:768px) and (max-width: 1024px) {
+    .Faq-main .Faq-page {
+        padding: 5vmax 4vmax;
+    }
+
+    .Faq-main .Faq-page .faq-Top {
+        width: 100%;
+    }
+
+    .Faq-main .Faq-page .faq-Top h5 {
+        font-size: 2.5vmax;
+    }
+
+    .Faq-main .Faq-page .faq-btm {
+        width: 100%;
+    }
+
+    .Faq-main .Faq-page .faq-btm .f-btm-1 {
+        gap: 1.5vmax;
+        padding: 2vmax;
+    }
+
+    .Faq-main .Faq-page .faq-btm .f-btm-1 .f-btm-left {
+        width: 15%;
+    }
+
+    .Faq-main .Faq-page .faq-btm .f-btm-1 .f-btm-left img {
+        width: 50%;
+    }
+    .faq-content {
+            width: 100%;
+        }
+    .faq-articles .faq-item span h6 {
+        font-size: 1.9vmax;
+    }
+    .faq-articles .faq-item span i {
+            font-size: 1.9vmax !important;
+        }
+        .faq-article-details{
+            margin-top: 3vmax;
+            width: 100%;
+        }
+        .faq-article-details h6{
+          font-size: 3.5vmax;
+        }
+        
+        .faq-article-details .detail-f p{
+           font-size: 2vmax;
+        }
+            
+}
+         

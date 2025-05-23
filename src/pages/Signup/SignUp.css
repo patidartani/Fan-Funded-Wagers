@@ -1,0 +1,259 @@
+.Signup-main {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-position: center;
+    background-size: cover;
+    min-height: 100vh;
+    color: #fff;
+    padding-top: 3vmax;
+    padding-bottom: 4vmax;
+    font-family: Arial, Helvetica, sans-serif;
+    background-repeat: no-repeat;
+    background-image: url("../../assets/images/banner2.jpeg");
+}
+
+.error-text {
+    width: 100%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding-left: 1vmax;
+}
+
+.Signup-main .Signup-content {
+    width: 85%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.Signup-main .Signup-content form {
+    width: 35%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: column;
+    border: 1px solid #DBB66B;
+    padding: 2vmax 2vmax;
+    border-radius: 5px;
+    gap: 0.7vmax;
+}
+
+.Signup-main .Signup-content form h5 {
+    font-size: 2vmax;
+    color: #DBB66B;
+    font-weight: 700;
+}
+
+.Signup-main .Signup-content form small {
+    font-size: 0.9vmax;
+    color: #dbdbdb;
+}
+
+.Signup-main .Signup-content form .sf-ipt {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #DBB66B;
+    border-radius: 5px;
+    /* background: url('https://app.fanfunded.io/_next/static/media/outlined-white-input.384fbfc2.svg') no-repeat;
+    background-size: 100% 100%; 
+    background-position: left center;
+    border: none; */
+}
+
+.Signup-main .Signup-content form .sf-ipt input {
+    outline: none;
+    border: none;
+    color: #fff;
+    background: none;
+    padding: 0.8vmax 1vmax;
+    width: 100%;
+}
+
+.Signup-main .Signup-content form .signup-btn {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 1vmax;
+}
+
+.Signup-main .Signup-content form .signup-btn button {
+    width: 100%;
+    border: none;
+    outline: none;
+    background: none;
+    font-weight: lighter;
+    letter-spacing: 0.2px;
+    font-size: 1vmax;
+    padding: 0.8vmax 1vmax;
+    color: #fff;
+    transition: 0.5s;
+    border-radius: 5px;
+    background: linear-gradient(90deg, #DBB66B 0%, #F90 100%);
+}
+
+/* .Signup-main .Signup-content form .signup-btn button:hover{
+transform: scale(1.1);
+} */
+
+.Signup-main .Signup-content form .new-ones {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 1vmax;
+}
+
+.Signup-main .Signup-content form .new-ones a {
+    text-decoration: none;
+    color: #DBB66B;
+}
+
+.password-containers {
+    position: relative;
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+
+.eye-icons {
+    position: absolute;
+    right: 20px;
+    cursor: pointer;
+    color: #DBB66B;
+    font-size: 1.2rem;
+}
+
+@media (min-width:768px) and (max-width:1050px) {
+    .Signup-main {
+        background-position: top center;
+    }
+
+    .Signup-main .Signup-content {
+        width: 95%;
+        padding-bottom: 5vmax;
+        padding-top: 3vmax;
+    }
+
+    .Signup-main .Signup-content form {
+        width: 98%;
+        padding: 3vmax 1.5vmax;
+    }
+
+    .Signup-main .Signup-content form h5 {
+        font-size: 4vmax;
+    }
+
+    .Signup-main .Signup-content form small {
+        font-size: 1.5vmax;
+    }
+
+    .Signup-main .Signup-content form .sf-ipt {
+        padding: 1.1vmax 1vmax;
+        margin-bottom: 0.7vmax;
+    }
+
+    .Signup-main .Signup-content form .sf-ipt input {
+        font-size: 1.8vmax;
+        padding: 1vmax; 
+    }
+
+    .Signup-main .Signup-content form .forget {
+        width: 90%;
+    }
+
+    .Signup-main .Signup-content form .forget a {
+        font-size: 1.8vmax;
+    }
+
+    .Signup-main .Signup-content form .signup-btn {
+        margin-top: 2vmax;
+    }
+
+    .Signup-main .Signup-content form .signup-btn button {
+        padding: 1.7vmax 1vmax;
+        font-size: 2vmax;
+    }
+
+    .Signup-main .Signup-content form .new-ones {
+        margin-top: 3vmax;
+        font-size: 2vmax;
+    }
+
+    .Signup-main .Signup-content form .new-ones a {
+        text-decoration: none;
+    }
+
+    .eye-icons {
+        right: 30px;
+        font-size: 2rem;
+    }
+
+}
+
+@media (max-width:768px) {
+    .Signup-main {
+        background-position: top center;
+    }
+
+    .Signup-main .Signup-content {
+        width: 95%;
+        padding-bottom: 5vmax;
+        padding-top: 3vmax;
+    }
+
+    .Signup-main .Signup-content form {
+        width: 98%;
+        padding: 3vmax 1.5vmax;
+    }
+
+    .Signup-main .Signup-content form h5 {
+        font-size: 4vmax;
+    }
+
+    .Signup-main .Signup-content form small {
+        font-size: 1.5vmax;
+    }
+
+    .Signup-main .Signup-content form .sf-ipt {
+        padding: 1.1vmax 1vmax;
+        margin-bottom: 0.7vmax;
+    }
+
+    .Signup-main .Signup-content form .sf-ipt input {
+        font-size: 1.8vmax;
+        padding: 1vmax;
+    }
+
+    .Signup-main .Signup-content form .forget {
+        width: 90%;
+    }
+
+    .Signup-main .Signup-content form .forget a {
+        font-size: 1.8vmax;
+    }
+
+    .Signup-main .Signup-content form .signup-btn {
+        margin-top: 2vmax;
+    }
+
+    .Signup-main .Signup-content form .signup-btn button {
+        padding: 1.7vmax 1vmax;
+        font-size: 2vmax;
+    }
+
+    .Signup-main .Signup-content form .new-ones {
+        margin-top: 3vmax;
+    }
+
+    .Signup-main .Signup-content form .new-ones a {
+        text-decoration: none;
+    }
+
+}
+
