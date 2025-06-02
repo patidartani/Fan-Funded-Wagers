@@ -13,7 +13,7 @@ import { store, persistor } from "./redux-toolkit/store.js";
 createRoot(document.getElementById("root")).render(
   <Provider store={store}>
     <PersistGate loading={null} persistor={persistor}>
-      <BrowserRouter basename="/migrate">
+      <BrowserRouter>
         <App />
       </BrowserRouter>
     </PersistGate>
