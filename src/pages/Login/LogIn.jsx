@@ -1,6 +1,6 @@
 import { useState } from "react";
 import Swal from "sweetalert2";  // Import SweetAlert2
-import "./Login.css";
+import "./LogIn.css";
 import Navbar from "../../pages/Navbar/Navbar";
 import { RiEyeLine, RiEyeOffLine } from "react-icons/ri";
 import { useDispatch } from "react-redux";
